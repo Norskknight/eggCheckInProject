@@ -18,8 +18,8 @@ I would like to have a enter date for when I received the egg and have a calende
 * enter egg type
 #### Generate Data
 * have an ID  
-* have a Wash by date / refrigarate by date
-* have a use by date
+* have a Wash by date / refrigarate by date 1 week after entering
+* have a use by date 6 weeks after refrigeration
 #### Use Data
 * add dates with ID's to a calender
     
