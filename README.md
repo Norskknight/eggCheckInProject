@@ -2,7 +2,7 @@
 
 This repository is for my egg calender project 
 
-### Problem 
+# Problem 
 
 I get chicken eggs and duck eggs and would like to keep track of them.
 I would like to have a enter date for when I received the egg and have a calender update with a wash by date and a use by date generated with an ID for the egg.
@@ -22,4 +22,40 @@ I would like to have a enter date for when I received the egg and have a calende
 * have a use by date 6 weeks after refrigeration
 #### Use Data
 * add dates with ID's to a calender
+
+# Technologies 
+
+#### security
     
+    Tomcat's JDBC Realm Authentication
+    Admin role: create/read/update/delete (crud) of all data
+    User role: create/read/update/delete egg, edit data they have entered previously
+#### Database
+    MySQL
+    Store users and roles
+    store egg entered date and type 
+#### Orm Framework - Object Relational Mapping
+    Hibernate 5
+#### Dependency Managemnt 
+    maven
+#### CSS
+    css Grid
+#### Data Validation
+    TBD
+#### Logging
+    Configurable logging using Log4J2.
+    In production, only errors will normally be logged, but logging at a debug level can be turned on to facilitate trouble-shooting.
+#### Hosting
+    AWS
+#### Independent Research Topic
+    CSS Grid
+#### Unit Testing
+    JUnit tests to achieve 80% coverage
+#### IDE
+    IntelliJ IDEA
+    Atom
+    
+
+### [Screen Designs](design/Screens.md)
+### [Project Plan](Project%20Plan.md)
+### [TimeLog](timelog.md)
