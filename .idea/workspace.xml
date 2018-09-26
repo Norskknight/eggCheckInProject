@@ -7,14 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="086a6114-946e-42ed-b0fb-66fbcdfd0848" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/calender.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/eggForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/notes.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/totals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/eggForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/notes.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/totals.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
@@ -65,18 +57,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="292" />
-          <entry key="jsp" value="179" />
+          <entry key="jsp" value="180" />
           <entry key="md" value="2169" />
-          <entry key="txt" value="263" />
+          <entry key="txt" value="291" />
           <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="292" />
-          <entry key="JSP" value="179" />
+          <entry key="JSP" value="180" />
           <entry key="Markdown" value="2169" />
-          <entry key="PLAIN_TEXT" value="263" />
+          <entry key="PLAIN_TEXT" value="291" />
           <entry key="XML" value="13" />
         </counts>
       </usages-collector>
@@ -139,8 +131,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            <state relative-caret-position="216">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -265,7 +257,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537996485286" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537996727407" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -381,7 +373,7 @@
       <workItem from="1537818456865" duration="6707000" />
       <workItem from="1537991314895" duration="23000" />
       <workItem from="1537992766794" duration="216000" />
-      <workItem from="1537993887426" duration="2594000" />
+      <workItem from="1537993887426" duration="2836000" />
     </task>
     <task id="LOCAL-00001" summary="added the readme and timeLog">
       <created>1537216389125</created>
@@ -418,17 +410,24 @@
       <option name="project" value="LOCAL" />
       <updated>1537995951412</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added init jsp and css pages">
+      <created>1537996516692</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1537996516692</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13244000" />
+    <option name="totallyTimeSpent" value="13486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-4" width="1863" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25811777" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25811777" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -438,7 +437,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3294979" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -508,7 +507,8 @@
     <MESSAGE value="added tag lib exersise 3 to my project" />
     <MESSAGE value="markdown documents updated and added more" />
     <MESSAGE value="added link to my custom tag lib" />
-    <option name="LAST_COMMIT_MESSAGE" value="added link to my custom tag lib" />
+    <MESSAGE value="added init jsp and css pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="added init jsp and css pages" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
@@ -643,8 +643,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        <state relative-caret-position="216">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
