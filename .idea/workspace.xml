@@ -7,8 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="086a6114-946e-42ed-b0fb-66fbcdfd0848" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Project Plan.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/Screens.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -58,8 +56,8 @@
         <counts>
           <entry key="java" value="292" />
           <entry key="jsp" value="83" />
-          <entry key="md" value="2125" />
-          <entry key="txt" value="162" />
+          <entry key="md" value="2169" />
+          <entry key="txt" value="226" />
           <entry key="xml" value="13" />
         </counts>
       </usages-collector>
@@ -67,8 +65,8 @@
         <counts>
           <entry key="JAVA" value="292" />
           <entry key="JSP" value="83" />
-          <entry key="Markdown" value="2125" />
-          <entry key="PLAIN_TEXT" value="162" />
+          <entry key="Markdown" value="2169" />
+          <entry key="PLAIN_TEXT" value="226" />
           <entry key="XML" value="13" />
         </counts>
       </usages-collector>
@@ -92,8 +90,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="779">
-                <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+              <first_editor relative-caret-position="293">
+                <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -202,7 +200,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537995663663" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537995915349" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -316,7 +314,7 @@
       <workItem from="1537818456865" duration="6707000" />
       <workItem from="1537991314895" duration="23000" />
       <workItem from="1537992766794" duration="216000" />
-      <workItem from="1537993887426" duration="1773000" />
+      <workItem from="1537993887426" duration="2025000" />
     </task>
     <task id="LOCAL-00001" summary="added the readme and timeLog">
       <created>1537216389125</created>
@@ -339,11 +337,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537826425991</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="markdown documents updated and added more">
+      <created>1537995733814</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1537995733814</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12423000" />
+    <option name="totallyTimeSpent" value="12675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-4" width="1863" height="1084" extended-state="6" />
@@ -427,7 +432,8 @@
     <MESSAGE value="added the readme and timeLog" />
     <MESSAGE value="added design images for pages and updated timeLog markdown" />
     <MESSAGE value="added tag lib exersise 3 to my project" />
-    <option name="LAST_COMMIT_MESSAGE" value="added tag lib exersise 3 to my project" />
+    <MESSAGE value="markdown documents updated and added more" />
+    <option name="LAST_COMMIT_MESSAGE" value="markdown documents updated and added more" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
@@ -524,8 +530,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="779">
-            <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+          <first_editor relative-caret-position="293">
+            <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>
