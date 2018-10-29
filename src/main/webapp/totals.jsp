@@ -1,16 +1,8 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: student
-  Date: 9/26/18
-  Time: 4:10 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@include file="header.jsp"%>
+<c:set value="totals" var="title"/>
 <html>
-<head>
-    <title>Title</title>
-</head>
+<%@include file="head.jsp"%>
 <body>
-
+<%@include file="nav.jsp"%>
 </body>
 </html>

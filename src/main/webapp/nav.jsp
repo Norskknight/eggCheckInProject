@@ -1,4 +1,4 @@
-<div>
+<div class="nav">
     <a class="selected" href="index.jsp">Index</a> <br />
     <a href="eggForm.jsp">Eggs</a> <br />
     <a href="calender.jsp">Calender</a> <br />
