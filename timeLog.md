@@ -1,11 +1,9 @@
 # Time Log
-### week one 
-* 9/12 came up with project idea 
-###week two
-* 9/17 created github repository
-###week three
-* 9/20 first design thoughts and layout  
-###Week Four 9/24 - 10/1
-* 9/24 flesh out design for reference
-* 9/24 research on refrigeration 
-
+|Date|Hours|Notes|
+|----|-----|-----|
+|9/12/18|  .1   |came up with project idea 
+|9/17/18|   .1  |created github repository
+|9/20/18|   .2  |first design thoughts and layout  
+|9/24/18|   .1  |flesh out design for reference
+|9/24/18|   .1  |research on refrigeration 
+|12/4/18|5    |created hibernate and generic dao with tests
