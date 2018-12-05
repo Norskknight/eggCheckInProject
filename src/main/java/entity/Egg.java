@@ -39,8 +39,8 @@ public class Egg {
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(collected);
         calendar.add(Calendar.DAY_OF_YEAR,time);
-        Date washBy = calendar.getTime();
-       return washBy;
+        Date nextDate = calendar.getTime();
+       return nextDate;
     }
 
 }
