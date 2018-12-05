@@ -41,6 +41,7 @@ public class GenericDAOTest {
 
         userDao.delete((User)userDao.getById(testUserId));
         logger.info("Deleted User id " + testUserId);
+        assert true;
     }
 
     @Test
@@ -63,6 +64,7 @@ public class GenericDAOTest {
 
         userDao.delete(testUser);
         logger.info("Deleted User id: " + testUserId + " Name: " + testUser2.getUserName());
+        assert true;
     }
 
     @Test
@@ -75,5 +77,6 @@ public class GenericDAOTest {
         logger.info("Added User id " + testUserId);
         userDao.delete((User)userDao.getById(testUserId));
         logger.info("Deleted User id " + testUserId);
+        assert true;
     }
 }

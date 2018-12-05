@@ -43,5 +43,4 @@ public class Egg {
        return washBy;
     }
 
-
 }
