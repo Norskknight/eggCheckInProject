@@ -7,3 +7,4 @@
 |9/24/18|   1   |flesh out design for reference
 |9/24/18|  .1   |research on refrigeration 
 |12/4/18|   5   |created hibernate and generic dao with tests
+|12/10/18|   2   |starting signup

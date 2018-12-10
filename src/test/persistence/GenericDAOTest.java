@@ -11,7 +11,7 @@ public class GenericDAOTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
     GenericDAO<User> userDao = new GenericDAO<User>(User.class);
-    int testUserId = 0;
+    public int testUserId = 0;
 
     @Test
     public void getAllUser() {
@@ -23,9 +23,14 @@ public class GenericDAOTest {
     @Test
     public void getByIdUser() {
         logger.info("Test getByIdUser User");
-        User user = userDao.getById(1);
+        User user = userDao.getById(2);
         logger.info(user);
-        assertEquals(1,user.getId());
+        logger.info(user.getId());
+        logger.info(user.getEggs());
+        logger.info(user.getUserPass());
+        logger.info(user.getUserName());
+        logger.info(user.getRole());
+        assertEquals(2,user.getId());
     }
 
     @Test
@@ -38,8 +43,9 @@ public class GenericDAOTest {
 
         testUserId = userDao.create(newUser);
         logger.info("Added User id " + testUserId);
-
-        userDao.delete((User)userDao.getById(testUserId));
+        User deleteUser = userDao.getById(testUserId);
+        logger.info("deleting  " + deleteUser);
+        userDao.delete(deleteUser);
         logger.info("Deleted User id " + testUserId);
         assert true;
     }

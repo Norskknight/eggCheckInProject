@@ -20,7 +20,7 @@
   <!-- Protect the admin page. -->
   <security-constraint>
     <web-resource-collection>
-      <web-resource-name>search</web-resource-name>
+      <web-resource-name>AdminRole</web-resource-name>
       <url-pattern>/admin.jsp</url-pattern>
     </web-resource-collection>
     <auth-constraint>
@@ -31,4 +31,30 @@
   <security-role>
     <role-name>admin</role-name>
   </security-role>
+
+
+  <login-config>
+    <auth-method>FORM</auth-method>
+    <form-login-config>
+      <form-login-page>/login.jsp</form-login-page>
+      <form-error-page>/loginError.jsp</form-error-page>
+    </form-login-config>
+  </login-config>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/generalError.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>403</error-code>
+    <location>/generalError.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>500</error-code>
+    <location>/generalError.jsp</location>
+  </error-page>
+
+  <welcome-file-list>
+    <welcome-file>viewReport</welcome-file>
+  </welcome-file-list>
+
 </web-app>

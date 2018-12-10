@@ -1,6 +1,8 @@
 package entity;
 
-import lombok.Data;
+
+import lombok.Getter;
+import lombok.Setter;
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.text.ParseException;
@@ -8,7 +10,8 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-@Data
+@Getter
+@Setter
 @Entity(name = "Egg")
 @Table(name = "Eggs")
 public class Egg {
@@ -26,7 +29,7 @@ public class Egg {
 
     @ManyToOne
     @JoinColumn(name="userId",referencedColumnName="id")
-    private User $user;
+    private User user;
 
     public Date generateNextDate(int time){
 
@@ -42,5 +45,8 @@ public class Egg {
         Date nextDate = calendar.getTime();
        return nextDate;
     }
-
+    @Override
+    public String toString() {
+        return Integer.toString(id);
+    }
 }

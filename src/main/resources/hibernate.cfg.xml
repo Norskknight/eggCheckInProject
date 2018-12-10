@@ -18,6 +18,7 @@
 
         <mapping class="entity.User"/>
         <mapping class="entity.Egg"/>
+        <mapping class="entity.Role"/>
 
 
     </session-factory>
