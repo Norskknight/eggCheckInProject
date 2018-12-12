@@ -3,7 +3,6 @@ package entity;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.io.Serializable;
@@ -36,7 +35,11 @@ public class User implements Serializable {
 
     @Override
     public String toString() {
-        return userName;
+        return "User{" +
+                "id=" + getId() +
+                ", userName='" + getUserName() + '\'' +
+                ", userPass='" + getUserPass() + '\'' +
+                '}';
     }
 
     public void addRole(Role role){

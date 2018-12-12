@@ -5,4 +5,5 @@
     <a href="calender.jsp">Calender</a>
     <a href="totals.jsp">Totals</a>
     <a href="notes.jsp">Notes</a>
+    <a href="login.jsp">Login</a>
 </div>

@@ -4,6 +4,7 @@ import entity.Role;
 import entity.User;
 import persistence.GenericDAO;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -27,15 +28,19 @@ public class SignUpUser extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         User user = new User();
+        user.setId(1);
         user.setUserName(req.getParameter("userName"));
-        user.setUserPass(req.getParameter("password"));
-        logger.info("Adding User: " + user);
+        user.setUserPass(req.getParameter("userPass"));
+        logger.debug("Adding User: " + user);
         Role role = new Role();
         role.setUser(user);
         role.setName("user");
         user.addRole(role);
 
         GenericDAO<User> userDao = new GenericDAO<User>(User.class);
-        userDao.create(user);
+        int userid = userDao.create(user);
+        logger.debug("user ID: " + userid);
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
+        dispatcher.forward(req, resp);
     }
 }

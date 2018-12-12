@@ -5,11 +5,11 @@
 <body>
 <form action="signUpUser" method="post">
     <label for="userName">UserName</label>
-    <input required type="text" id="userName">
-
+    <input required type="text" id="userName" name="userName">
+<br>
     <label for="userPass">Password</label>
-    <input required type="password" id="userPass">
-
+    <input required type="password" id="userPass" name="userPass">
+    <input type="submit">
 </form>
 <%@include file="nav.jsp"%>
 </body>
