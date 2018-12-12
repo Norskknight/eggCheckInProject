@@ -1,5 +1,5 @@
 <%@include file="header.jsp"%>
-<c:set value="Login Faild" var="title"/>
+<c:set value="Login Failed" var="title"/>
 <html>
 <%@include file="head.jsp"%>
 <body>
