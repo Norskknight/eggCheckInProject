@@ -10,4 +10,4 @@
 |12/10/18|   2  |starting signup
 |12/11/18|  2.5    |corrected tests with separate test database
 |12/11/18|   1.5   |finished signup
-|12/11/18|     |show all users egg totals on index
+|12/11/18|  1   |show all users egg totals on totals page
