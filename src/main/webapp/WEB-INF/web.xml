@@ -20,23 +20,28 @@
   <!-- Protect the admin page. -->
   <security-constraint>
     <web-resource-collection>
-      <web-resource-name>AdminRole</web-resource-name>
-      <url-pattern>/admin.jsp</url-pattern>
+        <web-resource-name>AdminRole</web-resource-name>
+        <url-pattern>/admin.jsp</url-pattern>
+        <url-pattern>/addEggs</url-pattern>
+        <url-pattern>/eggForm.jsp</url-pattern>
     </web-resource-collection>
     <auth-constraint>
-      <role-name>admin</role-name>
+        <role-name>admin</role-name>
     </auth-constraint>
   </security-constraint>
-  <security-constraint>
-    <web-resource-collection>
-      <web-resource-name>RequiresUserRole</web-resource-name>
-      <url-pattern>/aaddEggs</url-pattern>
-      <url-pattern>/aeggForm.jsp</url-pattern>
 
+  <security-constraint>
+
+    <web-resource-collection>
+      <web-resource-name>UserRole</web-resource-name>
+      <url-pattern>/addEggs</url-pattern>
+      <url-pattern>/eggForm.jsp</url-pattern>
     </web-resource-collection>
+
     <auth-constraint>
       <role-name>user</role-name>
     </auth-constraint>
+
   </security-constraint>
   <security-role>
     <role-name>user</role-name>
@@ -48,15 +53,15 @@
 
   <error-page>
     <error-code>404</error-code>
-    <location>/generalError.jsp</location>
+    <location>/generalError.jsp?404</location>
   </error-page>
   <error-page>
     <error-code>403</error-code>
-    <location>/generalError.jsp</location>
+    <location>/generalError.jsp?403</location>
   </error-page>
   <error-page>
     <error-code>500</error-code>
-    <location>/generalError.jsp</location>
+    <location>/generalError.jsp?500</location>
   </error-page>
 
   <welcome-file-list>

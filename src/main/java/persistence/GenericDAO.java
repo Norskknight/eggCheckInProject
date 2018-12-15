@@ -69,4 +69,14 @@ public class GenericDAO<T> {
         transaction.commit();
         session.close();
     }
+
+    public List<T> findByPropertyEqual(String propertyName, Object value) {
+        Session session = getSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery(type);
+        Root<T> root = query.from(type);
+        query.select(root).where(builder.equal(root.get(propertyName),value));
+
+        return session.createQuery(query).getResultList();
+    }
 }

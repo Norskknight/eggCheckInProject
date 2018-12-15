@@ -1,8 +1,6 @@
 package controller;
 
-
 import entity.Egg;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -10,21 +8,52 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.List;
+import java.util.Set;
+
+import entity.User;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import persistence.GenericDAO;
 
-@WebServlet(name = "SignUpUser", urlPatterns = { "/addEgg" } )
+@WebServlet(name = "addEgg", urlPatterns = { "/addEgg" } )
 public class AddEgg extends HttpServlet {
-    private Logger logger = LogManager.getLogger(this.getClass());
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-       Egg egg = new Egg();
+    private Logger logger = LogManager.getLogger(this.getClass());
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        GenericDAO<User> userDao = new GenericDAO<User>(User.class);
+        GenericDAO<Egg> eggDao = new GenericDAO<Egg>(Egg.class);
+        List<User> users = userDao.findByPropertyEqual("userName", req.getRemoteUser());
+        Egg egg = new Egg();
         egg.setCollectedDate(req.getParameter("date"));
         egg.setType(req.getParameter("type"));
-        logger.debug(req.getSession().getAttributeNames());
-        //egg.setUser();
+
+        logger.debug(req.getRemoteUser());
+        logger.debug(req.getParameter("type"));
+        logger.debug(req.getParameter("date"));
+
+        User user = users.get(0);
+        logger.debug(user);
+        egg.setUser(user);
+
+        Set<Egg> eggs =  user.getEggs();
+        logger.debug(eggs.size());
+        String perUserStringID = Integer.toString(user.getId()) + Integer.toString((eggs.size()+1));
+        egg.setPerUserId(Integer.parseInt(user.getId() +""+ (eggs.size()+1)));
+        logger.info(egg.getPerUserId());
+        eggDao.create(egg);
+
+        String message = "<div class='event'><p>last Egg ID is : " + egg.getPerUserId()
+                + " <p>last Egg Collected date is : " + egg.generateNextDate(0) + "</p>"
+                + " <p>last Egg washBy Date is : " + egg.generateNextDate(14) + "</p>"
+                + " <p>last Egg Use By Date is : " + egg.generateNextDate(35) + "</p>"
+                + "</div>";
+
         RequestDispatcher dispatcher = req.getRequestDispatcher("/eggForm.jsp");
+
+        req.setAttribute("message", message); // This will be available as ${message}
         dispatcher.forward(req, resp);
     }
 }

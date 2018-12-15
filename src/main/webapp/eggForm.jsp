@@ -5,13 +5,18 @@
 <%@include file="head.jsp"%>
 <body>
 <%@include file="nav.jsp"%>
-
-<form action="/addEgg">
+${message}
+<form action="addEgg" method="post">
     <label for="date">Date Collected</label><br>
-    <tl:todaysDate/>
-
-
-
+    <tl:todaysDate/><br>
+    <label for="type">Egg Type</label>
+    <br>
+    <select name="type" id="type">
+        <option value="chicken">Chicken</option>
+        <option value="duck">Duck</option>
+    </select>
+    <br>
+    <input type="submit">
 </form>
 </body>
 </html>

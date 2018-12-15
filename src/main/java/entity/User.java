@@ -41,7 +41,9 @@ public class User implements Serializable {
                 ", userPass='" + getUserPass() + '\'' +
                 '}';
     }
-
+    public void addEgg(Egg egg){
+        getEggs().add(egg);
+    }
     public void addRole(Role role){
         getRole().add(role);
     }

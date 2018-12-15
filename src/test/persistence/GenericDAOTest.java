@@ -30,8 +30,6 @@ public class GenericDAOTest {
         users = userDao.getAll();
     }
 
-
-
     @Test
     public void getAllUser() {
         logger.info("getAll");
@@ -85,4 +83,14 @@ public class GenericDAOTest {
         logger.info("Deleted User id " + 3);
         assertEquals(users.size()-1, userDao.getAll().size());
     }
+
+    @Test
+    public void findByPropertyEqual() {
+        logger.info("findByPropertyEqual in field userName with name UnitTester1");
+        List<User> user =  userDao.findByPropertyEqual("userName", "UnitTester1");
+        logger.info(user);
+        assertEquals(2, user.get(0).getId());
+    }
+
+
 }
