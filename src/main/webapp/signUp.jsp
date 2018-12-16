@@ -6,9 +6,13 @@
 <form action="signUpUser" method="post">
     <label for="userName">UserName</label>
     <input required type="text" id="userName" name="userName">
-<br>
+    <br>
     <label for="userPass">Password</label>
     <input required type="password" id="userPass" name="userPass">
+    <br>
+    <label for="zip">Zipcode</label>
+    <input required type="text" id="zip" name="zip">
+
     <input type="submit">
 </form>
 <%@include file="nav.jsp"%>

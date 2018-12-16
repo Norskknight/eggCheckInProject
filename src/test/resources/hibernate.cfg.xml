@@ -19,7 +19,7 @@
         <mapping class="entity.User"/>
         <mapping class="entity.Egg"/>
         <mapping class="entity.Role"/>
-
+        <mapping class="entity.ZipCodeWeather"/>
 
     </session-factory>
 

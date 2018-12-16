@@ -8,7 +8,8 @@
 ${message}
 <form action="addEgg" method="post">
     <label for="date">Date Collected</label><br>
-    <tl:todaysDate/><br>
+    <input type="date" name="date" id="date">
+    <br>
     <label for="type">Egg Type</label>
     <br>
     <select name="type" id="type">

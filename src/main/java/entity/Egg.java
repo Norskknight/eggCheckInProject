@@ -34,6 +34,9 @@ public class Egg {
     @Column(name = "collectedDate")
     private String collectedDate;
 
+    @Column(name = "notes")
+    private String notes;
+
     @ManyToOne
     @JoinColumn(name = "userId", referencedColumnName = "id")
     private User user;

@@ -1,6 +1,5 @@
 package entity;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.GenericGenerator;
@@ -21,6 +20,8 @@ public class User implements Serializable {
     @GenericGenerator(name = "native",strategy = "native")
     private int id;
 
+
+
     @Column(name = "userName")
     private String userName;
 
@@ -32,6 +33,10 @@ public class User implements Serializable {
 
     @OneToMany(mappedBy = "user", fetch = FetchType.EAGER, cascade = CascadeType.ALL, orphanRemoval = true)
     private Set<Role> role = new HashSet<>();
+
+    @ManyToOne
+    @JoinColumn(name = "zipId", referencedColumnName = "id")
+    private ZipCodeWeather zipCodeWeather;
 
     @Override
     public String toString() {

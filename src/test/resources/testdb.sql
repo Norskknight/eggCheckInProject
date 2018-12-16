@@ -18,3 +18,4 @@ INSERT INTO EggCheckerTest.Eggs (type, userId, collectedDate, perUserId) VALUES 
 INSERT INTO EggCheckerTest.Eggs (type, userId, collectedDate, perUserId) VALUES ('chicken', 4, '1/10/1000', 2);
 INSERT INTO EggCheckerTest.Eggs (type, userId, collectedDate, perUserId) VALUES ('duck', 5, '1/30/1000', 2);
 INSERT INTO EggCheckerTest.Eggs (type, userId, collectedDate, perUserId) VALUES ('chicken', 5, '1/10/1000', 1);
+INSERT INTO EggCheckerTest.zipCodeWeather (weather, zip, timeStamp, tempInKelvin) VALUES ('clear', 53575, '1/10/1000', 100);

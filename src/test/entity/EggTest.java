@@ -18,14 +18,14 @@ public class EggTest {
         logger.info("testGenerateNextDate");
         Egg eggTest = new Egg();
 
-        String testDate = "1/1/1000";
+        String testDate = "1000-1-1";
         logger.info("start date string:  1/1/1000");
         eggTest.setCollectedDate(testDate);
 
         Calendar testCalendar = Calendar.getInstance();
         Date collected = null;
         try {
-            collected = new SimpleDateFormat("dd/MM/yyyy").parse(testDate);
+            collected = new SimpleDateFormat("yyyy-mm-dd").parse(testDate);
         } catch (ParseException e) {
             e.printStackTrace();
         }

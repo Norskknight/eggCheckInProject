@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Set;
 
 import entity.User;
+import entity.ZipCodeWeather;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import persistence.GenericDAO;
@@ -37,7 +38,9 @@ public class AddEgg extends HttpServlet {
         User user = users.get(0);
         logger.debug(user);
         egg.setUser(user);
-
+        ZipCodeWeather weatherData = user.getZipCodeWeather();
+        String formatedNote ="The weather today is a" + weatherData.getWeather() + " with the Temperature in Fahrenheit " + weatherData.tempToFahrenheit();
+        egg.setNotes(formatedNote);
         Set<Egg> eggs =  user.getEggs();
         logger.debug(eggs.size());
         String perUserStringID = Integer.toString(user.getId()) + Integer.toString((eggs.size()+1));
@@ -49,6 +52,7 @@ public class AddEgg extends HttpServlet {
                 + " <p>last Egg Collected date is : " + egg.generateNextDate(0) + "</p>"
                 + " <p>last Egg washBy Date is : " + egg.generateNextDate(14) + "</p>"
                 + " <p>last Egg Use By Date is : " + egg.generateNextDate(35) + "</p>"
+                + "<p>"+ egg.getNotes()+ "</p>"
                 + "</div>";
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/eggForm.jsp");

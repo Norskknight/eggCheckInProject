@@ -2,6 +2,8 @@ package persistence;
 
 import entity.Role;
 import entity.User;
+import entity.ZipCodeWeather;
+import entity.ZipCodeWeatherTest;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Before;
@@ -16,6 +18,7 @@ public class GenericDAOTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
     GenericDAO<User> userDao;
+    GenericDAO<ZipCodeWeather> zipDao;
     public int testUserId = 0;
     DatabaseUtility databaseUtility;
     List<User> users;
@@ -24,6 +27,7 @@ public class GenericDAOTest {
     public void setUp() throws Exception{
         logger.info("setup");
         userDao = new GenericDAO<User>(User.class);
+        zipDao = new GenericDAO<ZipCodeWeather>(ZipCodeWeather.class);
         databaseUtility = new DatabaseUtility();
         databaseUtility.runSQL("Cleandb.sql");
         databaseUtility.runSQL("testdb.sql");
@@ -58,7 +62,27 @@ public class GenericDAOTest {
         role.setUser(newUser);
         newUser.addRole(role);
 
+        ZipCodeWeather zipCode = new ZipCodeWeather();
+
+        int newZip = 53576;
+        logger.info(newZip);
+        zipCode.setZip(newZip);
+
+        List<ZipCodeWeather> singleZip = zipDao.findByPropertyEqual("zip", newZip);
+
+        if (!singleZip.isEmpty()){
+            logger.debug("is not empty" + singleZip);
+            newUser.setZipCodeWeather(singleZip.get(0));
+        }else {
+            logger.debug("is empty "+ singleZip.isEmpty());
+            zipCode.setWeather();
+            logger.debug(zipCode.getId());
+            int zipID = zipDao.create(zipCode);
+            logger.debug("id "+ zipID);
+            newUser.setZipCodeWeather(zipCode);
+        }
         logger.info("User id null " + testUserId);
+        logger.debug("Adding User: " + newUser);
         testUserId = userDao.create(newUser);
         logger.info("Added User id " + testUserId);
         assertEquals(users.size()+1, userDao.getAll().size());
