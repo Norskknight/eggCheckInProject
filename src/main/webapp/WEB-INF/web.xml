@@ -23,7 +23,11 @@
         <web-resource-name>AdminRole</web-resource-name>
         <url-pattern>/admin.jsp</url-pattern>
         <url-pattern>/addEggs</url-pattern>
+      <url-pattern>/admin</url-pattern>
         <url-pattern>/eggForm.jsp</url-pattern>
+      <url-pattern>/showEggs</url-pattern>
+      <url-pattern>/showEgg</url-pattern>
+      <url-pattern>/showEgg.jsp</url-pattern>
     </web-resource-collection>
     <auth-constraint>
         <role-name>admin</role-name>

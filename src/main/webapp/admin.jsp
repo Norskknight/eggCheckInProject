@@ -20,7 +20,7 @@ this can see all users and totals
             <td>
                 <form method="post" action="deleteUser">
                     <input name="userid" type="userid" value="${user.id}" hidden>
-                    <input type="submit">
+                    <input type="submit" value="Delete">
                 </form>
             </td>
         </tr>
