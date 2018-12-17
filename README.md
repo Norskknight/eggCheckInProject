@@ -10,18 +10,20 @@ I would like to have a enter date for when I received the egg and have a calende
 ## simplified 
 
 * enter egg ID 
-####Update 
+#### Update 
 * chainge Type 
 * check as used 
 #### Insert Data
 * enter egg date
 * enter egg type
+* enter user with zipcode
 #### Generate Data
 * have an ID  
 * have a Wash by date / refrigarate by date 1 week after entering
 * have a use by date 6 weeks after refrigeration
+* use zipcode to reseve weather data from api
 #### Use Data
-* add dates with ID's to a calender
+* add dates with ID's to a table
 
 # Technologies 
 #### Custom tag lib
