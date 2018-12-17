@@ -25,14 +25,18 @@ public class Egg {
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
 
+    @Transient
+    private Date twoWeeks;
+    @Transient
+    private Date FiveWeeks;
+
     @Column(name = "type")
     private String type;
 
-    @Column(name = "perUserId")
-    private int perUserId;
-
     @Column(name = "collectedDate")
     private String collectedDate;
+
+
 
     @Column(name = "notes")
     private String notes;
@@ -40,6 +44,7 @@ public class Egg {
     @ManyToOne
     @JoinColumn(name = "userId", referencedColumnName = "id")
     private User user;
+
 
     public Date generateNextDate(int time) {
         Logger logger = LogManager.getLogger(this.getClass());

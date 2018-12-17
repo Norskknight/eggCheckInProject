@@ -38,7 +38,6 @@ public class UserTest {
         testEgg.setType("duck");
         testEgg.setCollectedDate("1/1/1000");
         testEgg.setUser(user);
-        testEgg.setPerUserId(user.getEggs().size()+1);
         logger.debug(user.getEggs());
 
         eggDao.create(testEgg);

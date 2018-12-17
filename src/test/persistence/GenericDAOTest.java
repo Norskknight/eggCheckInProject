@@ -3,7 +3,6 @@ package persistence;
 import entity.Role;
 import entity.User;
 import entity.ZipCodeWeather;
-import entity.ZipCodeWeatherTest;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Before;
@@ -112,7 +111,7 @@ public class GenericDAOTest {
     public void findByPropertyEqual() {
         logger.info("findByPropertyEqual in field userName with name UnitTester1");
         List<User> user =  userDao.findByPropertyEqual("userName", "UnitTester1");
-        logger.info(user);
+        logger.info(user.get(0));
         assertEquals(2, user.get(0).getId());
     }
 

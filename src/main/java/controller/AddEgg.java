@@ -43,12 +43,9 @@ public class AddEgg extends HttpServlet {
         egg.setNotes(formatedNote);
         Set<Egg> eggs =  user.getEggs();
         logger.debug(eggs.size());
-        String perUserStringID = Integer.toString(user.getId()) + Integer.toString((eggs.size()+1));
-        egg.setPerUserId(Integer.parseInt(perUserStringID));
-        logger.info(egg.getPerUserId());
-        eggDao.create(egg);
+        int id = eggDao.create(egg);
 
-        String message = "<div class='event'><p>last Egg ID is : " + egg.getPerUserId()
+        String message = "<div class='event'><p>last Egg ID is : " + id
                 + " <p>last Egg Collected date is : " + egg.generateNextDate(0) + "</p>"
                 + " <p>last Egg washBy Date is : " + egg.generateNextDate(14) + "</p>"
                 + " <p>last Egg Use By Date is : " + egg.generateNextDate(35) + "</p>"
