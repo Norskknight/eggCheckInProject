@@ -14,4 +14,4 @@
 |12/12/18|   1  |   adding eggs to users page 
 |12/14/18|  5   |   adding eggs to users controller and form with return for wash by and use by dates
 |12/15/18|   4  | using a weather api and created a zipCodeWeather entity for storege along with output
-|        |      |
+|12/16/18|    8  |egg deleting and updating along with adding datatables
