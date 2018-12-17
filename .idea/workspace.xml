@@ -7,12 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="086a6114-946e-42ed-b0fb-66fbcdfd0848" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design/DB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/Logout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timeLog.md" beforeDir="false" afterPath="$PROJECT_DIR$/timeLog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Egg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Egg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/notes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/notes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/entity/EggTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/entity/EggTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,7 +60,7 @@
     <session id="2020518614">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.100" value="1" />
@@ -70,7 +68,7 @@
           <entry key="project.open.time.106" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.111" value="1" />
-          <entry key="project.open.time.114" value="1" />
+          <entry key="project.open.time.114" value="2" />
           <entry key="project.open.time.116" value="1" />
           <entry key="project.open.time.130" value="2" />
           <entry key="project.open.time.17" value="1" />
@@ -82,7 +80,7 @@
           <entry key="project.open.time.80" value="1" />
           <entry key="project.open.time.96" value="1" />
           <entry key="project.open.time.99" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -95,9 +93,9 @@
           <entry key="class" value="3" />
           <entry key="css" value="9" />
           <entry key="gitgnore" value="1" />
-          <entry key="java" value="172" />
+          <entry key="java" value="178" />
           <entry key="js" value="2" />
-          <entry key="jsp" value="126" />
+          <entry key="jsp" value="127" />
           <entry key="log" value="6" />
           <entry key="md" value="24" />
           <entry key="png" value="16" />
@@ -117,8 +115,8 @@
           <entry key="CSS" value="9" />
           <entry key="Database Element" value="88" />
           <entry key="Image" value="16" />
-          <entry key="JAVA" value="172" />
-          <entry key="JSP" value="126" />
+          <entry key="JAVA" value="178" />
+          <entry key="JSP" value="127" />
           <entry key="JavaScript" value="2" />
           <entry key="Markdown" value="24" />
           <entry key="PLAIN_TEXT" value="7" />
@@ -134,22 +132,22 @@
           <entry key="cell" value="149" />
           <entry key="css" value="71" />
           <entry key="dummy" value="8" />
-          <entry key="java" value="8133" />
-          <entry key="jsp" value="2320" />
+          <entry key="java" value="8281" />
+          <entry key="jsp" value="2375" />
           <entry key="md" value="3041" />
           <entry key="properties" value="67" />
           <entry key="sql" value="626" />
-          <entry key="txt" value="1024" />
+          <entry key="txt" value="1059" />
           <entry key="xml" value="306" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="71" />
-          <entry key="JAVA" value="8133" />
-          <entry key="JSP" value="2320" />
+          <entry key="JAVA" value="8281" />
+          <entry key="JSP" value="2375" />
           <entry key="Markdown" value="3041" />
-          <entry key="PLAIN_TEXT" value="1032" />
+          <entry key="PLAIN_TEXT" value="1067" />
           <entry key="Properties" value="67" />
           <entry key="SQL" value="334" />
           <entry key="Scratch" value="441" />
@@ -160,107 +158,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/notes.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/timeLog.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="324">
-                <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="52" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/Logout.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/nav.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="344">
-                <caret line="57" column="4" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design/Screens.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="162">
-                <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/DeleteUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="74" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="261">
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -304,7 +206,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/weatherAPI.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/18ebb4d5-d040-49ed-8b09-10687d95cdb8/console.sql" />
-        <option value="$PROJECT_DIR$/src/test/entity/EggTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/Cleandb.sql" />
         <option value="$PROJECT_DIR$/src/main/webapp/signUp.jsp" />
@@ -324,7 +225,6 @@
         <option value="$PROJECT_DIR$/src/main/java/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/head.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ShowEggs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/Egg.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ShowEgg.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/UpdateEggs.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/showEgg.jsp" />
@@ -333,7 +233,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/totals.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/eggForm.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/notes.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/controller/Logout.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/nav.jsp" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -341,6 +240,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
         <option value="$PROJECT_DIR$/timeLog.md" />
+        <option value="$PROJECT_DIR$/src/main/java/entity/Egg.java" />
+        <option value="$PROJECT_DIR$/src/test/entity/EggTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/notes.jsp" />
       </list>
     </option>
   </component>
@@ -404,7 +306,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="147" />
+    <option name="x" value="59" />
     <option name="y" value="24" />
     <option name="width" value="1861" />
     <option name="height" value="1048" />
@@ -432,7 +334,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -463,7 +364,8 @@
               <item name="eggCalender" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eggCalender" type="b2602c69:ProjectViewProjectNode" />
@@ -476,28 +378,36 @@
               <item name="eggCalender" type="b2602c69:ProjectViewProjectNode" />
               <item name="eggCalender" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eggCalender" type="b2602c69:ProjectViewProjectNode" />
               <item name="eggCalender" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eggCalender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eggCalender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545065705541" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545085986593" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -551,16 +461,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EggTest.testGenerateNextDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="eggCalender" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="persistence.*" />
+          <option name="PATTERN" value="entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="persistence" />
-      <option name="MAIN_CLASS_NAME" value="persistence.GenericDAOTest" />
+      <option name="PACKAGE_NAME" value="entity" />
+      <option name="MAIN_CLASS_NAME" value="entity.EggTest" />
+      <option name="METHOD_NAME" value="testGenerateNextDate" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -685,19 +597,19 @@
     </configuration>
     <list>
       <item itemvalue="TomEE Server.Unnamed" />
-      <item itemvalue="JUnit.GenericDAOTest" />
       <item itemvalue="JUnit.ZipCodeWeatherTest.addUser" />
       <item itemvalue="JUnit.GenericDAOTest.create" />
       <item itemvalue="JUnit.GenericDAOTest.findByPropertyEqual" />
       <item itemvalue="JUnit.All in eggCalender" />
+      <item itemvalue="JUnit.EggTest.testGenerateNextDate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EggTest.testGenerateNextDate" />
         <item itemvalue="JUnit.All in eggCalender" />
         <item itemvalue="JUnit.GenericDAOTest.findByPropertyEqual" />
         <item itemvalue="JUnit.GenericDAOTest.create" />
         <item itemvalue="JUnit.ZipCodeWeatherTest.addUser" />
-        <item itemvalue="JUnit.GenericDAOTest" />
       </list>
     </recent_temporary>
   </component>
@@ -732,7 +644,8 @@
       <workItem from="1544830193889" duration="8602000" />
       <workItem from="1544925765196" duration="14697000" />
       <workItem from="1545007444050" duration="24090000" />
-      <workItem from="1545064590762" duration="1393000" />
+      <workItem from="1545064590762" duration="1437000" />
+      <workItem from="1545084052702" duration="1833000" />
     </task>
     <task id="LOCAL-00001" summary="added the readme and timeLog">
       <created>1537216389125</created>
@@ -923,50 +836,57 @@
       <option name="project" value="LOCAL" />
       <updated>1545064716965</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="fixes to links and updated time log">
+      <created>1545066013895</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1545066013895</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GenericDAOTest_create - 2018.12.15 at 23h 41m 22s.xml">
-      <configuration name="GenericDAOTest.create" configurationId="JUnit" />
+    <history-entry file="EggTest_testGenerateNextDate - 2018.12.17 at 16h 12m 07s.xml">
+      <configuration name="EggTest.testGenerateNextDate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GenericDAOTest_create - 2018.12.15 at 23h 42m 44s.xml">
-      <configuration name="GenericDAOTest.create" configurationId="JUnit" />
+    <history-entry file="EggTest_testGenerateNextDate - 2018.12.17 at 16h 16m 42s.xml">
+      <configuration name="EggTest.testGenerateNextDate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GenericDAOTest_findByPropertyEqual - 2018.12.16 at 19h 56m 58s.xml">
-      <configuration name="GenericDAOTest.findByPropertyEqual" configurationId="JUnit" />
+    <history-entry file="EggTest_testGenerateNextDate - 2018.12.17 at 16h 17m 48s.xml">
+      <configuration name="EggTest.testGenerateNextDate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GenericDAOTest_findByPropertyEqual - 2018.12.16 at 19h 58m 03s.xml">
-      <configuration name="GenericDAOTest.findByPropertyEqual" configurationId="JUnit" />
+    <history-entry file="EggTest_testGenerateNextDate - 2018.12.17 at 16h 19m 23s.xml">
+      <configuration name="EggTest.testGenerateNextDate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GenericDAOTest_findByPropertyEqual - 2018.12.16 at 20h 00m 52s.xml">
-      <configuration name="GenericDAOTest.findByPropertyEqual" configurationId="JUnit" />
+    <history-entry file="EggTest_testGenerateNextDate - 2018.12.17 at 16h 20m 13s.xml">
+      <configuration name="EggTest.testGenerateNextDate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GenericDAOTest_findByPropertyEqual - 2018.12.16 at 20h 02m 24s.xml">
-      <configuration name="GenericDAOTest.findByPropertyEqual" configurationId="JUnit" />
+    <history-entry file="EggTest_testGenerateNextDate - 2018.12.17 at 16h 21m 05s.xml">
+      <configuration name="EggTest.testGenerateNextDate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_eggCalender - 2018.12.16 at 20h 06m 22s.xml">
-      <configuration name="All in eggCalender" configurationId="JUnit" />
+    <history-entry file="EggTest_testGenerateNextDate - 2018.12.17 at 16h 21m 21s.xml">
+      <configuration name="EggTest.testGenerateNextDate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_eggCalender - 2018.12.16 at 20h 06m 32s.xml">
-      <configuration name="All in eggCalender" configurationId="JUnit" />
+    <history-entry file="EggTest_testGenerateNextDate - 2018.12.17 at 16h 21m 30s.xml">
+      <configuration name="EggTest.testGenerateNextDate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_eggCalender - 2018.12.16 at 20h 06m 43s.xml">
-      <configuration name="All in eggCalender" configurationId="JUnit" />
+    <history-entry file="EggTest_testGenerateNextDate - 2018.12.17 at 16h 21m 45s.xml">
+      <configuration name="EggTest.testGenerateNextDate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_eggCalender - 2018.12.16 at 23h 14m 46s.xml">
-      <configuration name="All in eggCalender" configurationId="JUnit" />
+    <history-entry file="EggTest_testGenerateNextDate - 2018.12.17 at 16h 23m 14s.xml">
+      <configuration name="EggTest.testGenerateNextDate" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109001000" />
+    <option name="totallyTimeSpent" value="110878000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="147" y="24" width="1861" height="1048" extended-state="0" />
+    <frame x="59" y="24" width="1861" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Persistence" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14655647" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14655647" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
@@ -978,14 +898,14 @@
       <window_info anchor="bottom" id="Inspection Results" order="1" weight="0.3294979" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.4293478" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.4293478" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.33054394" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3294979" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32934782" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.31171548" />
@@ -1080,7 +1000,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added design images for pages and updated timeLog markdown" />
     <MESSAGE value="added tag lib exersise 3 to my project" />
     <MESSAGE value="markdown documents updated and added more" />
     <MESSAGE value="added link to my custom tag lib" />
@@ -1105,20 +1024,14 @@
     <MESSAGE value="fixes of context and buttons" />
     <MESSAGE value="Time log" />
     <MESSAGE value="fixed forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed forms" />
+    <MESSAGE value="fixes to links and updated time log" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes to links and updated time log" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/18ebb4d5-d040-49ed-8b09-10687d95cdb8/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://DATABASE/18ebb4d5-d040-49ed-8b09-10687d95cdb8.SCHEMA:EggCheckerTest">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1185,20 +1098,6 @@
       </provider>
     </entry>
     <entry file="das://18ebb4d5-d040-49ed-8b09-10687d95cdb8/schema/EggCheckerTest/table/User" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/ZipCodeWeather.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://18ebb4d5-d040-49ed-8b09-10687d95cdb8/schema/EggChecker/table/zipCodeWeather" />
     <entry file="file://$PROJECT_DIR$/src/test/entity/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1234,6 +1133,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="29" column="55" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="55" />
+          <folding>
+            <element signature="e#952#968#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1241,13 +1143,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1273,20 +1168,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Egg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ShowEggs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="21" column="66" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/ShowUsers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1298,6 +1179,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1312,6 +1196,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
           <caret line="46" column="33" lean-forward="true" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1322,6 +1209,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="657">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1394,26 +1284,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/notes.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+        <state relative-caret-position="54">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/DeleteUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/Logout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="72">
           <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1428,44 +1315,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design/Screens.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="162">
-            <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="344">
-            <caret line="57" column="4" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+          <first_editor relative-caret-position="1026">
+            <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1476,6 +1332,85 @@
             <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/ZipCodeWeather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="82" column="63" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Egg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="54" column="47" selection-start-line="50" selection-start-column="7" selection-end-line="54" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ShowEggs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+          <folding>
+            <element signature="e#1079#1085#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/entity/EggTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/Screens.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="162">
+            <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/DeleteUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/notes.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>

@@ -15,6 +15,7 @@
 <th class="th-sm">wash By</th>
 <th class="th-sm">best By</th>
 <th class="th-sm">Notes</th>
+<th class="th-sm">Edit</th>
 </thead>
 <tbody>
 
@@ -26,7 +27,9 @@
     <td>${egg.twoWeeks}</td>
     <td>${egg.fiveWeeks}</td>
     <td>${egg.notes} </td>
+        <td><a href="showEgg?id=${egg.id}">Edit</a> </td>
     </tr>
+
 </c:forEach>
     <tfoot>
     <th>ID</th>
@@ -35,18 +38,9 @@
     <th>wash By</th>
     <th>best By</th>
     <th>Notes</th>
-
+    <th>Edit</th>
     </tfoot>
 </table>
-
-<div>
-    <h5>Go To Egg Updateer</h5>
-    <form action="showEgg" method="get">
-        <label for="id">ID</label>
-        <input id="id" name="id" type="text">
-        <input type="submit" value="Find">
-    </form>
-</div>
 </body>
 <script>
 

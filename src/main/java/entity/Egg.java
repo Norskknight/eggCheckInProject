@@ -10,6 +10,7 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -26,9 +27,9 @@ public class Egg {
     private int id;
 
     @Transient
-    private Date twoWeeks;
+    private LocalDate twoWeeks;
     @Transient
-    private Date FiveWeeks;
+    private LocalDate FiveWeeks;
 
     @Column(name = "type")
     private String type;
@@ -46,19 +47,13 @@ public class Egg {
     private User user;
 
 
-    public Date generateNextDate(int time) {
+    public LocalDate generateNextDate(int time) {
         Logger logger = LogManager.getLogger(this.getClass());
-        Date collected = null;
-        try {
-            collected = new SimpleDateFormat("yyyy-mm-dd").parse(getCollectedDate());
-
-        } catch (ParseException e) {
-            logger.debug(e);
-        }
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTime(collected);
-        calendar.add(Calendar.DAY_OF_YEAR, time);
-        return calendar.getTime();
+        LocalDate localDate = LocalDate.parse(getCollectedDate());
+        logger.debug("local date ="+ localDate);
+        LocalDate nextTime = localDate.plusDays(time);
+        logger.debug("local date ="+ nextTime);
+        return nextTime;
     }
 
     @Override
