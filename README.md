@@ -51,6 +51,7 @@ I would like to have a enter date for when I received the egg and have a calende
 #### Hosting
     AWS
 #### Independent Research Topic
+    datatables
     CSS Grid
 #### Unit Testing
     JUnit tests to achieve 80% coverage
