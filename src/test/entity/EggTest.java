@@ -14,6 +14,7 @@ import static org.junit.Assert.*;
 
 public class EggTest {
     private final Logger logger = LogManager.getLogger(this.getClass());
+
     @Test
     public void testGenerateNextDate() {
         logger.info("testGenerateNextDate");

@@ -17,3 +17,4 @@
 |12/16/18|    8  |egg deleting and updating along with adding datatables
 12/17/18|   2 | uploading to aws
 12/17/18|  1  | code/link fixes
+12/17/18|  1.5  | small fixes calender to localdate and adding tests

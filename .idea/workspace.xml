@@ -7,9 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="086a6114-946e-42ed-b0fb-66fbcdfd0848" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/entity/ZipCodeWeatherTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Egg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Egg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/notes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/notes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/ZipCodeWeather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/ZipCodeWeather.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/entity/EggTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/entity/EggTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,10 +27,10 @@
     <SUITE FILE_PATH="coverage/eggCalender$GenericDAOTest.ic" NAME="GenericDAOTest Coverage Results" MODIFIED="1544580123701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>persistence.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/eggCalender$All_in_eggCalender.ic" NAME="All in eggCalender Coverage Results" MODIFIED="1545012395341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/eggCalender$All_in_eggCalender.ic" NAME="All in eggCalender Coverage Results" MODIFIED="1545086867129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="241" />
+    <option name="myElementSize" value="287" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -52,6 +52,18 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="EggChecker: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="EggCheckerTest: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -89,11 +101,11 @@
           <entry key="Role" value="16" />
           <entry key="SCHEMA:EggChecker" value="5" />
           <entry key="SCHEMA:EggCheckerTest" value="2" />
-          <entry key="User" value="34" />
+          <entry key="User" value="35" />
           <entry key="class" value="3" />
           <entry key="css" value="9" />
           <entry key="gitgnore" value="1" />
-          <entry key="java" value="178" />
+          <entry key="java" value="189" />
           <entry key="js" value="2" />
           <entry key="jsp" value="127" />
           <entry key="log" value="6" />
@@ -105,7 +117,7 @@
           <entry key="txt" value="1" />
           <entry key="user" value="2" />
           <entry key="xml" value="46" />
-          <entry key="zipCodeWeather" value="10" />
+          <entry key="zipCodeWeather" value="12" />
           <entry key="zipcodeWeather" value="3" />
         </counts>
       </usages-collector>
@@ -113,9 +125,9 @@
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="CSS" value="9" />
-          <entry key="Database Element" value="88" />
+          <entry key="Database Element" value="91" />
           <entry key="Image" value="16" />
-          <entry key="JAVA" value="178" />
+          <entry key="JAVA" value="189" />
           <entry key="JSP" value="127" />
           <entry key="JavaScript" value="2" />
           <entry key="Markdown" value="24" />
@@ -132,22 +144,22 @@
           <entry key="cell" value="149" />
           <entry key="css" value="71" />
           <entry key="dummy" value="8" />
-          <entry key="java" value="8281" />
-          <entry key="jsp" value="2375" />
+          <entry key="java" value="8388" />
+          <entry key="jsp" value="2378" />
           <entry key="md" value="3041" />
           <entry key="properties" value="67" />
           <entry key="sql" value="626" />
-          <entry key="txt" value="1059" />
+          <entry key="txt" value="1131" />
           <entry key="xml" value="306" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="71" />
-          <entry key="JAVA" value="8281" />
-          <entry key="JSP" value="2375" />
+          <entry key="JAVA" value="8388" />
+          <entry key="JSP" value="2378" />
           <entry key="Markdown" value="3041" />
-          <entry key="PLAIN_TEXT" value="1067" />
+          <entry key="PLAIN_TEXT" value="1139" />
           <entry key="Properties" value="67" />
           <entry key="SQL" value="334" />
           <entry key="Scratch" value="441" />
@@ -158,11 +170,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/notes.jsp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entity/Egg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            <state relative-caret-position="486">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entity/ZipCodeWeather.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1704">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -174,10 +195,10 @@
       <list>
         <option value="CSS File" />
         <option value="cdi.beans_1_1" />
-        <option value="JUnit4 Test Class" />
         <option value="JavaScript File" />
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -209,7 +230,6 @@
         <option value="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/Cleandb.sql" />
         <option value="$PROJECT_DIR$/src/main/webapp/signUp.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/ZipCodeWeather.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/SignUpUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ShowUsers.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/DeleteUser.java" />
@@ -218,7 +238,6 @@
         <option value="$PROJECT_DIR$/src/test/persistence/GenericDAOTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/AddEgg.java" />
         <option value="$PROJECT_DIR$/src/test/entity/UserTest.java" />
-        <option value="$PROJECT_DIR$/src/test/entity/ZipCodeWeatherTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/DeleteEgg.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/dataTable.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/header.jsp" />
@@ -241,8 +260,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
         <option value="$PROJECT_DIR$/timeLog.md" />
         <option value="$PROJECT_DIR$/src/main/java/entity/Egg.java" />
-        <option value="$PROJECT_DIR$/src/test/entity/EggTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/notes.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/entity/ZipCodeWeather.java" />
+        <option value="$PROJECT_DIR$/src/test/entity/EggTest.java" />
+        <option value="$PROJECT_DIR$/src/test/entity/ZipCodeWeatherTest.java" />
       </list>
     </option>
   </component>
@@ -306,8 +327,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="59" />
-    <option name="y" value="24" />
+    <option name="x" value="285" />
+    <option name="y" value="131" />
     <option name="width" value="1861" />
     <option name="height" value="1048" />
   </component>
@@ -371,28 +392,7 @@
               <item name="eggCalender" type="b2602c69:ProjectViewProjectNode" />
               <item name="eggCalender" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eggCalender" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eggCalender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eggCalender" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eggCalender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eggCalender" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eggCalender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -407,7 +407,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545085986593" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545087101731" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -426,18 +426,18 @@
       <recent name="entity" />
       <recent name="persistence" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/design" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/java/project.calender" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/design" />
-      <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -452,7 +452,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TomEE Server.Unnamed">
+  <component name="RunManager" selected="JUnit.All in eggCalender">
     <configuration name="All in eggCalender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="eggCalender" />
       <option name="PACKAGE_NAME" value="" />
@@ -477,39 +477,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericDAOTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="eggCalender" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="persistence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="persistence" />
-      <option name="MAIN_CLASS_NAME" value="persistence.GenericDAOTest" />
-      <option name="METHOD_NAME" value="create" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenericDAOTest.findByPropertyEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="eggCalender" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="persistence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="persistence" />
-      <option name="MAIN_CLASS_NAME" value="persistence.GenericDAOTest" />
-      <option name="METHOD_NAME" value="findByPropertyEqual" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZipCodeWeatherTest.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ZipCodeWeatherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="eggCalender" />
       <extension name="coverage">
         <pattern>
@@ -519,7 +487,37 @@
       </extension>
       <option name="PACKAGE_NAME" value="entity" />
       <option name="MAIN_CLASS_NAME" value="entity.ZipCodeWeatherTest" />
-      <option name="METHOD_NAME" value="addUser" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipCodeWeatherTest.tempToCelsius" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eggCalender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="entity" />
+      <option name="MAIN_CLASS_NAME" value="entity.ZipCodeWeatherTest" />
+      <option name="METHOD_NAME" value="tempToCelsius" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipCodeWeatherTest.tempToFahrenheit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eggCalender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="entity" />
+      <option name="MAIN_CLASS_NAME" value="entity.ZipCodeWeatherTest" />
+      <option name="METHOD_NAME" value="tempToFahrenheit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -597,19 +595,19 @@
     </configuration>
     <list>
       <item itemvalue="TomEE Server.Unnamed" />
-      <item itemvalue="JUnit.ZipCodeWeatherTest.addUser" />
-      <item itemvalue="JUnit.GenericDAOTest.create" />
-      <item itemvalue="JUnit.GenericDAOTest.findByPropertyEqual" />
       <item itemvalue="JUnit.All in eggCalender" />
       <item itemvalue="JUnit.EggTest.testGenerateNextDate" />
+      <item itemvalue="JUnit.ZipCodeWeatherTest.tempToFahrenheit" />
+      <item itemvalue="JUnit.ZipCodeWeatherTest.tempToCelsius" />
+      <item itemvalue="JUnit.ZipCodeWeatherTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EggTest.testGenerateNextDate" />
         <item itemvalue="JUnit.All in eggCalender" />
-        <item itemvalue="JUnit.GenericDAOTest.findByPropertyEqual" />
-        <item itemvalue="JUnit.GenericDAOTest.create" />
-        <item itemvalue="JUnit.ZipCodeWeatherTest.addUser" />
+        <item itemvalue="JUnit.ZipCodeWeatherTest" />
+        <item itemvalue="JUnit.ZipCodeWeatherTest.tempToCelsius" />
+        <item itemvalue="JUnit.ZipCodeWeatherTest.tempToFahrenheit" />
+        <item itemvalue="JUnit.EggTest.testGenerateNextDate" />
       </list>
     </recent_temporary>
   </component>
@@ -645,7 +643,7 @@
       <workItem from="1544925765196" duration="14697000" />
       <workItem from="1545007444050" duration="24090000" />
       <workItem from="1545064590762" duration="1437000" />
-      <workItem from="1545084052702" duration="1833000" />
+      <workItem from="1545084052702" duration="2924000" />
     </task>
     <task id="LOCAL-00001" summary="added the readme and timeLog">
       <created>1537216389125</created>
@@ -843,28 +841,17 @@
       <option name="project" value="LOCAL" />
       <updated>1545066013895</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="fixed calender to localdate &#10;added link instead of get form on notes">
+      <created>1545086103780</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1545086103780</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EggTest_testGenerateNextDate - 2018.12.17 at 16h 12m 07s.xml">
-      <configuration name="EggTest.testGenerateNextDate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EggTest_testGenerateNextDate - 2018.12.17 at 16h 16m 42s.xml">
-      <configuration name="EggTest.testGenerateNextDate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EggTest_testGenerateNextDate - 2018.12.17 at 16h 17m 48s.xml">
-      <configuration name="EggTest.testGenerateNextDate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EggTest_testGenerateNextDate - 2018.12.17 at 16h 19m 23s.xml">
-      <configuration name="EggTest.testGenerateNextDate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EggTest_testGenerateNextDate - 2018.12.17 at 16h 20m 13s.xml">
-      <configuration name="EggTest.testGenerateNextDate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EggTest_testGenerateNextDate - 2018.12.17 at 16h 21m 05s.xml">
-      <configuration name="EggTest.testGenerateNextDate" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EggTest_testGenerateNextDate - 2018.12.17 at 16h 21m 21s.xml">
       <configuration name="EggTest.testGenerateNextDate" configurationId="JUnit" />
     </history-entry>
@@ -877,13 +864,30 @@
     <history-entry file="EggTest_testGenerateNextDate - 2018.12.17 at 16h 23m 14s.xml">
       <configuration name="EggTest.testGenerateNextDate" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_eggCalender - 2018.12.17 at 16h 35m 36s.xml">
+      <configuration name="All in eggCalender" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZipCodeWeatherTest_tempToFahrenheit - 2018.12.17 at 16h 45m 23s.xml">
+      <configuration name="ZipCodeWeatherTest.tempToFahrenheit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZipCodeWeatherTest_tempToCelsius - 2018.12.17 at 16h 45m 39s.xml">
+      <configuration name="ZipCodeWeatherTest.tempToCelsius" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZipCodeWeatherTest - 2018.12.17 at 16h 46m 08s.xml">
+      <configuration name="ZipCodeWeatherTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZipCodeWeatherTest - 2018.12.17 at 16h 47m 36s.xml">
+      <configuration name="ZipCodeWeatherTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_eggCalender - 2018.12.17 at 16h 47m 58s.xml">
+      <configuration name="All in eggCalender" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110878000" />
+    <option name="totallyTimeSpent" value="111969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="24" width="1861" height="1048" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Persistence" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14655647" />
@@ -898,7 +902,7 @@
       <window_info anchor="bottom" id="Inspection Results" order="1" weight="0.3294979" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.3294979" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.4293478" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.4293478" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -917,13 +921,13 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3296643" />
-      <window_info anchor="right" id="Database" order="6" sideWeight="0.49554366" visible="true" weight="0.16198348" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.49333334" visible="true" weight="0.38071626" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="JSF" order="9" />
       <window_info anchor="right" id="CDI" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" />
-      <window_info anchor="right" id="Coverage" order="12" sideWeight="0.50445634" side_tool="true" weight="0.16180517" />
+      <window_info active="true" anchor="right" id="Coverage" order="12" sideWeight="0.50666666" side_tool="true" visible="true" weight="0.38071626" />
     </layout>
     <layout-to-restore>
       <window_info id="Persistence" order="0" side_tool="true" />
@@ -1000,7 +1004,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added tag lib exersise 3 to my project" />
     <MESSAGE value="markdown documents updated and added more" />
     <MESSAGE value="added link to my custom tag lib" />
     <MESSAGE value="added init jsp and css pages" />
@@ -1025,7 +1028,8 @@
     <MESSAGE value="Time log" />
     <MESSAGE value="fixed forms" />
     <MESSAGE value="fixes to links and updated time log" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes to links and updated time log" />
+    <MESSAGE value="fixed calender to localdate &#10;added link instead of get form on notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed calender to localdate &#10;added link instead of get form on notes" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1098,16 +1102,6 @@
       </provider>
     </entry>
     <entry file="das://18ebb4d5-d040-49ed-8b09-10687d95cdb8/schema/EggCheckerTest/table/User" />
-    <entry file="das://18ebb4d5-d040-49ed-8b09-10687d95cdb8/schema/EggChecker/table/zipCodeWeather" />
-    <entry file="file://$PROJECT_DIR$/src/test/entity/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://18ebb4d5-d040-49ed-8b09-10687d95cdb8/schema/EggCheckerTest/table/zipCodeWeather" />
-    <entry file="file://$PROJECT_DIR$/src/test/entity/ZipCodeWeatherTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/testdb.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1119,13 +1113,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/persistence/GenericDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="69" column="83" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="83" />
         </state>
       </provider>
     </entry>
@@ -1204,7 +1191,6 @@
     </entry>
     <entry file="das://18ebb4d5-d040-49ed-8b09-10687d95cdb8/schema/EggCheckerTest/table/Eggs" />
     <entry file="das://18ebb4d5-d040-49ed-8b09-10687d95cdb8/schema/EggChecker/table/Eggs" />
-    <entry file="das://18ebb4d5-d040-49ed-8b09-10687d95cdb8/schema/EggChecker/table/User" />
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/AddEgg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="657">
@@ -1335,27 +1321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/ZipCodeWeather.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="82" column="63" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Egg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="54" column="47" selection-start-line="50" selection-start-column="7" selection-end-line="54" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/ShowEggs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1363,20 +1328,6 @@
           <folding>
             <element signature="e#1079#1085#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/entity/EggTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1409,8 +1360,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/notes.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        <state relative-caret-position="362">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://18ebb4d5-d040-49ed-8b09-10687d95cdb8/schema/EggChecker/table/zipCodeWeather">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://18ebb4d5-d040-49ed-8b09-10687d95cdb8/schema/EggChecker/table/User">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/entity/ZipCodeWeatherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/entity/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="18" column="72" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/entity/EggTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/persistence/GenericDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="69" column="83" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://18ebb4d5-d040-49ed-8b09-10687d95cdb8/schema/EggCheckerTest/table/zipCodeWeather">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Egg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/ZipCodeWeather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1704">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
         </state>
       </provider>
     </entry>

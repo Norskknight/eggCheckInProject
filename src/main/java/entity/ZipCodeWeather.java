@@ -119,25 +119,15 @@ public class ZipCodeWeather implements Serializable {
     }
 
     public String getWeather() {
-        //if time stamp older than 12 m set weather else return
-        if (weather.isEmpty()) {
-            setWeather();
-            return weather;
-        } else if (true) {
-            //if time stamp older than 12 m set weather
-            return weather;
-        } else {
-            return weather;
-        }
+        setWeather();
+        return weather;
     }
     public double tempToFahrenheit(){
         double fahrenheit = (getTempInKelvin() - 273.15) * 9/5 + 32;
-
         return Math.round(fahrenheit);
     }
     public double tempToCelsius(){
         double celsius = (getTempInKelvin() - 273.15);
-
         return Math.round(celsius);
     }
 
