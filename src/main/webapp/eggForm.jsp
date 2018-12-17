@@ -19,7 +19,7 @@ ${message}
     <br>
     <input type="submit">
 </form>
-<form action="/egg/showEgg" method="get">
+<form action="showEgg" method="get">
     <label for="id">ID</label>
     <input id="id" name="id" type="text">
     <input type="submit" value="Find">

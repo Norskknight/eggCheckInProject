@@ -8,10 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="086a6114-946e-42ed-b0fb-66fbcdfd0848" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/totals.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/totals.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,7 +63,7 @@
     <session id="2020518614">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.100" value="1" />
@@ -103,7 +99,7 @@
           <entry key="js" value="2" />
           <entry key="jsp" value="124" />
           <entry key="log" value="6" />
-          <entry key="md" value="20" />
+          <entry key="md" value="21" />
           <entry key="png" value="16" />
           <entry key="properties" value="10" />
           <entry key="role" value="6" />
@@ -124,7 +120,7 @@
           <entry key="JAVA" value="170" />
           <entry key="JSP" value="124" />
           <entry key="JavaScript" value="2" />
-          <entry key="Markdown" value="20" />
+          <entry key="Markdown" value="21" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="Properties" value="10" />
           <entry key="SQL" value="14" />
@@ -140,10 +136,10 @@
           <entry key="dummy" value="8" />
           <entry key="java" value="8078" />
           <entry key="jsp" value="2308" />
-          <entry key="md" value="2853" />
+          <entry key="md" value="2922" />
           <entry key="properties" value="61" />
           <entry key="sql" value="626" />
-          <entry key="txt" value="976" />
+          <entry key="txt" value="1013" />
           <entry key="xml" value="280" />
         </counts>
       </usages-collector>
@@ -152,8 +148,8 @@
           <entry key="CSS" value="71" />
           <entry key="JAVA" value="8078" />
           <entry key="JSP" value="2308" />
-          <entry key="Markdown" value="2853" />
-          <entry key="PLAIN_TEXT" value="984" />
+          <entry key="Markdown" value="2922" />
+          <entry key="PLAIN_TEXT" value="1021" />
           <entry key="Properties" value="61" />
           <entry key="SQL" value="334" />
           <entry key="Scratch" value="441" />
@@ -182,6 +178,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/timeLog.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="288">
+                <caret line="16" column="72" lean-forward="true" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/notes.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -200,7 +208,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="158">
@@ -292,7 +300,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/signUp.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/entity/ZipCodeWeather.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/SignUpUser.java" />
-        <option value="$PROJECT_DIR$/timeLog.md" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ShowUsers.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/DeleteUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/AdminUserPage.java" />
@@ -321,6 +328,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/admin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/totals.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/timeLog.md" />
       </list>
     </option>
   </component>
@@ -473,7 +481,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545039130522" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545039272176" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -706,7 +714,7 @@
       <workItem from="1544675386953" duration="502000" />
       <workItem from="1544830193889" duration="8602000" />
       <workItem from="1544925765196" duration="14697000" />
-      <workItem from="1545007444050" duration="23845000" />
+      <workItem from="1545007444050" duration="24090000" />
     </task>
     <task id="LOCAL-00001" summary="added the readme and timeLog">
       <created>1537216389125</created>
@@ -876,7 +884,21 @@
       <option name="project" value="LOCAL" />
       <updated>1545027038746</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="fixes of context and buttons">
+      <created>1545039154402</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1545039154402</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Time log">
+      <created>1545039246129</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1545039246129</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -912,14 +934,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107363000" />
+    <option name="totallyTimeSpent" value="107608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-4" width="1863" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Persistence" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14639516" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14639516" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
@@ -931,7 +953,7 @@
       <window_info anchor="bottom" id="Inspection Results" order="1" weight="0.3294979" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.3294979" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.4131799" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.4131799" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -1056,7 +1078,9 @@
     <MESSAGE value="added a weather api, inputs for zipcode, outputs notes with weather data, and zip entity created" />
     <MESSAGE value="added admin deleting of users" />
     <MESSAGE value="added updating and deleting of eggs" />
-    <option name="LAST_COMMIT_MESSAGE" value="added updating and deleting of eggs" />
+    <MESSAGE value="fixes of context and buttons" />
+    <MESSAGE value="Time log" />
+    <option name="LAST_COMMIT_MESSAGE" value="Time log" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1160,16 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/timeLog.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="288">
-            <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1492,6 +1506,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timeLog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="288">
+            <caret line="16" column="72" lean-forward="true" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
