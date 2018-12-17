@@ -65,7 +65,7 @@
   </error-page>
 
   <welcome-file-list>
-    <welcome-file>viewReport</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
 
 </web-app>
