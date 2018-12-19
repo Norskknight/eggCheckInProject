@@ -11,17 +11,17 @@ I would like to have a enter date for when I received the egg and have a calende
 
 * enter egg ID 
 ####Update 
-* chainge Type 
-* check as used 
+* Update fields 
+ 
 #### Insert Data
 * enter egg date
 * enter egg type
 #### Generate Data
 * have an ID  
-* have a Wash by date / refrigarate by date 1 week after entering
-* have a use by date 6 weeks after refrigeration
+* have a Wash by date / refrigarate by date 2 week after entering
+* have a best by date 3 weeks after refrigeration
 #### Use Data
-* add dates with ID's to a calender
+* add dates with ID's to a datatable
 
 # Technologies 
 #### Custom tag lib
@@ -41,6 +41,7 @@ I would like to have a enter date for when I received the egg and have a calende
     maven
 #### CSS
     css Grid
+    dataTables
 #### Data Validation
     TBD
 #### Logging
@@ -62,3 +63,4 @@ I would like to have a enter date for when I received the egg and have a calende
 ### [TimeLog](timeLog.md)
 ### [Database Diagram](design/DB.png)
 ### [Test Coverage](design/TestCoverage.png)
+### [Logging](design/Logging.png)

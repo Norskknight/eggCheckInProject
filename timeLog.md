@@ -15,7 +15,7 @@
 |12/14/18|  5     |adding eggs to users controller and form with return for wash by and use by dates
 |12/15/18|  4     |using a weather api and created a zipCodeWeather entity for storege along with output
 |12/16/18|  8     |egg deleting and updating along with adding datatables
-|12/17/18|   2    |uploading to aws
-|12/17/18|   1    |code/link fixes
-|12/17/18|   1.5  |small fixes calender to localdate and adding tests
-|12/18/18|   3   |implemented Css Grid
+|12/17/18|  2     |uploading to aws
+|12/17/18|  1     |code/link fixes
+|12/17/18|  1.5   |small fixes calender to localdate and adding tests
+|12/18/18|  3     |implemented Css Grid
