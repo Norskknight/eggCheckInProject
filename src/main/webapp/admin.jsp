@@ -1,16 +1,15 @@
-<%@include file="header.jsp"%>
+<%@include file="header.jsp" %>
 <c:set value="Admin" var="title"/>
 <html>
-<%@include file="head.jsp"%>
-<body>
-<%@include file="nav.jsp"%>
-this can see all users and totals
-
-<div>${message}</div>
-<table>
+<%@include file="head.jsp" %>
+<body class="container">
+<%@include file="titleBar.jsp" %>
+<div class="deleteMessage">${message}</div>
+<table id="datatable" class="table table-striped table-bordered table-sm">
     <thead>
-    <th>User</th>
-    <th>Eggs</th>
+    <th class="th-sm">User</th>
+    <th class="th-sm">Eggs</th>
+    <th class="th-sm">Delete</th>
     </thead>
     <tbody>
     <c:forEach var="user" items="${users}">
@@ -28,4 +27,10 @@ this can see all users and totals
     </tbody>
 </table>
 </body>
+<script>
+
+    $(document).ready(function () {
+        var table = $('#datatable').DataTable();
+    });
+</script>
 </html>

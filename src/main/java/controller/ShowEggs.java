@@ -45,7 +45,7 @@ public class ShowEggs extends HttpServlet {
         }
 
         req.setAttribute("eggs", eggs);
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/notes" + ".jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/eggList" + ".jsp");
 
         dispatcher.forward(req, resp);
     }

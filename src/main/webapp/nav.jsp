@@ -5,4 +5,5 @@
     <a href="showEggs">Your Eggs</a>
     <a href="signUp.jsp">Sign Up</a>
     <a href="logout">Logout</a>
+    <a href="admin">Admin</a>
 </div>

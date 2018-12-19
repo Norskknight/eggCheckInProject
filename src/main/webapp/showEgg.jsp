@@ -1,10 +1,11 @@
-<%@include file="header.jsp"%>
+<%@include file="header.jsp" %>
 <c:set value="ShowEgg" var="title"/>
 <html>
-<%@include file="head.jsp"%>
+<%@include file="head.jsp" %>
 <body>
-<%@include file="nav.jsp"%>
-    <div>
+<div class="container">
+    <%@include file="titleBar.jsp" %>
+    <div class="showEggUpdateForm">
         <p>Egg Id is: ${egg.id}</p>
         <br>
         <form action="updateEggs" method="post">
@@ -18,11 +19,11 @@
             <label for="notes">Notes</label>
             <input id="notes" name="notes" type="text" value="${egg.notes}">
             <br>
-            <input type="submit" name="job" value="Delete">
-            <br>
             <input type="submit" name="job" value="Update">
+            <br>
+            <input type="submit" name="job" value="Delete">
         </form>
     </div>
-
+</div>
 </body>
 </html>

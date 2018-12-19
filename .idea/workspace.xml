@@ -7,10 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="086a6114-946e-42ed-b0fb-66fbcdfd0848" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/entity/ZipCodeWeatherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/eggList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Egg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/titleBar.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/ZipCodeWeather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/ZipCodeWeather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/entity/EggTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/entity/EggTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ShowEggs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ShowEggs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/calender.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/Base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/Base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/eggForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/eggForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/generalError.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/generalError.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/loginError.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/loginError.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/nav.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/notes.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/showEgg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/showEgg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/signUp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/signUp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/totals.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/totals.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,11 +88,12 @@
     <session id="2020518614">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.100" value="1" />
           <entry key="project.open.time.101" value="1" />
+          <entry key="project.open.time.103" value="1" />
           <entry key="project.open.time.106" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.111" value="1" />
@@ -92,7 +109,7 @@
           <entry key="project.open.time.80" value="1" />
           <entry key="project.open.time.96" value="1" />
           <entry key="project.open.time.99" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -101,36 +118,36 @@
           <entry key="Role" value="16" />
           <entry key="SCHEMA:EggChecker" value="5" />
           <entry key="SCHEMA:EggCheckerTest" value="2" />
-          <entry key="User" value="35" />
+          <entry key="User" value="36" />
           <entry key="class" value="3" />
-          <entry key="css" value="9" />
+          <entry key="css" value="14" />
           <entry key="gitgnore" value="1" />
-          <entry key="java" value="189" />
+          <entry key="java" value="196" />
           <entry key="js" value="2" />
-          <entry key="jsp" value="127" />
+          <entry key="jsp" value="188" />
           <entry key="log" value="6" />
-          <entry key="md" value="24" />
-          <entry key="png" value="16" />
+          <entry key="md" value="26" />
+          <entry key="png" value="17" />
           <entry key="properties" value="10" />
           <entry key="role" value="6" />
           <entry key="sql" value="33" />
           <entry key="txt" value="1" />
           <entry key="user" value="2" />
           <entry key="xml" value="46" />
-          <entry key="zipCodeWeather" value="12" />
+          <entry key="zipCodeWeather" value="13" />
           <entry key="zipcodeWeather" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="CSS" value="9" />
-          <entry key="Database Element" value="91" />
-          <entry key="Image" value="16" />
-          <entry key="JAVA" value="189" />
-          <entry key="JSP" value="127" />
+          <entry key="CSS" value="14" />
+          <entry key="Database Element" value="93" />
+          <entry key="Image" value="17" />
+          <entry key="JAVA" value="196" />
+          <entry key="JSP" value="188" />
           <entry key="JavaScript" value="2" />
-          <entry key="Markdown" value="24" />
+          <entry key="Markdown" value="26" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="Properties" value="10" />
           <entry key="SQL" value="14" />
@@ -142,24 +159,24 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="149" />
-          <entry key="css" value="71" />
+          <entry key="css" value="96" />
           <entry key="dummy" value="8" />
-          <entry key="java" value="8388" />
-          <entry key="jsp" value="2378" />
-          <entry key="md" value="3041" />
+          <entry key="java" value="8398" />
+          <entry key="jsp" value="2927" />
+          <entry key="md" value="3144" />
           <entry key="properties" value="67" />
           <entry key="sql" value="626" />
-          <entry key="txt" value="1131" />
+          <entry key="txt" value="1165" />
           <entry key="xml" value="306" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="71" />
-          <entry key="JAVA" value="8388" />
-          <entry key="JSP" value="2378" />
-          <entry key="Markdown" value="3041" />
-          <entry key="PLAIN_TEXT" value="1139" />
+          <entry key="CSS" value="96" />
+          <entry key="JAVA" value="8398" />
+          <entry key="JSP" value="2927" />
+          <entry key="Markdown" value="3144" />
+          <entry key="PLAIN_TEXT" value="1173" />
           <entry key="Properties" value="67" />
           <entry key="SQL" value="334" />
           <entry key="Scratch" value="441" />
@@ -171,19 +188,106 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entity/Egg.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/nav.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="144">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/eggList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/ShowEgg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="29" column="57" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/ShowUsers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="18" column="72" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/SignUpUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-264">
+              <caret line="29" column="55" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="55" />
+              <folding>
+                <element signature="e#952#968#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/UpdateEggs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entity/ZipCodeWeather.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/Base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1704">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            <state relative-caret-position="423">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/DeleteUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/AddEgg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/ShowEggs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="e#1079#1085#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,9 +300,9 @@
         <option value="CSS File" />
         <option value="cdi.beans_1_1" />
         <option value="JavaScript File" />
-        <option value="Jsp File" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -206,6 +310,9 @@
     <findStrings>
       <find>r</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/webapp/images</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -213,15 +320,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ff879b75-b491-4c6a-9186-44fdf12f0c17/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/user.java" />
-        <option value="$PROJECT_DIR$/src/main/java/persistence/SessionFactoryProvider.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
         <option value="$PROJECT_DIR$/src/main/java/entity/Role.java" />
         <option value="$PROJECT_DIR$/src/test/util/DatabaseUtility.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/loginError.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/generalError.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/persistence/GenericDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/entity/zipCodeWeather.java" />
         <option value="$PROJECT_DIR$/src/main/resources/weatherAPI.properties" />
@@ -229,7 +330,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/18ebb4d5-d040-49ed-8b09-10687d95cdb8/console.sql" />
         <option value="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/Cleandb.sql" />
-        <option value="$PROJECT_DIR$/src/main/webapp/signUp.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/controller/SignUpUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ShowUsers.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/DeleteUser.java" />
@@ -242,28 +342,35 @@
         <option value="$PROJECT_DIR$/src/main/webapp/dataTable.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/head.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/ShowEggs.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ShowEgg.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/UpdateEggs.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/showEgg.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/totals.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/eggForm.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/controller/Logout.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/nav.jsp" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
-        <option value="$PROJECT_DIR$/timeLog.md" />
         <option value="$PROJECT_DIR$/src/main/java/entity/Egg.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/notes.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/entity/ZipCodeWeather.java" />
         <option value="$PROJECT_DIR$/src/test/entity/EggTest.java" />
         <option value="$PROJECT_DIR$/src/test/entity/ZipCodeWeatherTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/timeLog.md" />
+        <option value="$PROJECT_DIR$/src/main/webapp/nav.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/calender.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/loginError.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/showEgg.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/totals.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/titleBar.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/generalError.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/signUp.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/eggForm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/head.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/notes.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/ShowEggs.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/Base.css" />
       </list>
     </option>
   </component>
@@ -326,9 +433,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="285" />
-    <option name="y" value="131" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="217" />
+    <option name="y" value="24" />
     <option name="width" value="1861" />
     <option name="height" value="1048" />
   </component>
@@ -355,6 +462,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -365,6 +474,11 @@
             <path>
               <item name="eggCalender" type="b2602c69:ProjectViewProjectNode" />
               <item name="eggCalender" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eggCalender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eggCalender" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -386,28 +500,43 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eggCalender" type="b2602c69:ProjectViewProjectNode" />
               <item name="eggCalender" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eggCalender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eggCalender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eggCalender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eggCalender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545087101731" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545192063811" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -452,7 +581,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in eggCalender">
+  <component name="RunManager" selected="TomEE Server.Unnamed">
     <configuration name="All in eggCalender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="eggCalender" />
       <option name="PACKAGE_NAME" value="" />
@@ -643,7 +772,8 @@
       <workItem from="1544925765196" duration="14697000" />
       <workItem from="1545007444050" duration="24090000" />
       <workItem from="1545064590762" duration="1437000" />
-      <workItem from="1545084052702" duration="2924000" />
+      <workItem from="1545084052702" duration="3213000" />
+      <workItem from="1545185884903" duration="6341000" />
     </task>
     <task id="LOCAL-00001" summary="added the readme and timeLog">
       <created>1537216389125</created>
@@ -848,7 +978,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545086103780</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="temp tests and timelog update">
+      <created>1545087197571</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1545087197571</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -884,13 +1021,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111969000" />
+    <option name="totallyTimeSpent" value="118599000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="24" width="1861" height="1048" extended-state="0" />
+    <frame x="56" y="-11" width="1865" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Persistence" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14655647" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14804623" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
@@ -902,14 +1040,14 @@
       <window_info anchor="bottom" id="Inspection Results" order="1" weight="0.3294979" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.4293478" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.4131799" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.33054394" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32934782" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32845187" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.31171548" />
@@ -921,13 +1059,13 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3296643" />
-      <window_info anchor="right" id="Database" order="6" sideWeight="0.49333334" visible="true" weight="0.38071626" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.49476987" visible="true" weight="0.38029718" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="JSF" order="9" />
       <window_info anchor="right" id="CDI" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" />
-      <window_info active="true" anchor="right" id="Coverage" order="12" sideWeight="0.50666666" side_tool="true" visible="true" weight="0.38071626" />
+      <window_info anchor="right" id="Coverage" order="12" sideWeight="0.5052301" side_tool="true" visible="true" weight="0.38029718" />
     </layout>
     <layout-to-restore>
       <window_info id="Persistence" order="0" side_tool="true" />
@@ -1004,7 +1142,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="markdown documents updated and added more" />
     <MESSAGE value="added link to my custom tag lib" />
     <MESSAGE value="added init jsp and css pages" />
     <MESSAGE value="fixed link error" />
@@ -1029,103 +1166,14 @@
     <MESSAGE value="fixed forms" />
     <MESSAGE value="fixes to links and updated time log" />
     <MESSAGE value="fixed calender to localdate &#10;added link instead of get form on notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed calender to localdate &#10;added link instead of get form on notes" />
+    <MESSAGE value="temp tests and timelog update" />
+    <option name="LAST_COMMIT_MESSAGE" value="temp tests and timelog update" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://DATABASE/18ebb4d5-d040-49ed-8b09-10687d95cdb8.SCHEMA:EggCheckerTest">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>18ebb4d5-d040-49ed-8b09-10687d95cdb8.SCHEMA:EggCheckerTest</OriginalElement>
-          <nodes>
-            <node x="260.0" y="406.0">18ebb4d5-d040-49ed-8b09-10687d95cdb8.TABLE:EggCheckerTest.Role</node>
-            <node x="132.5" y="0.0">18ebb4d5-d040-49ed-8b09-10687d95cdb8.TABLE:EggCheckerTest.zipCodeWeather</node>
-            <node x="136.0" y="203.0">18ebb4d5-d040-49ed-8b09-10687d95cdb8.TABLE:EggCheckerTest.User</node>
-            <node x="0.0" y="382.0">18ebb4d5-d040-49ed-8b09-10687d95cdb8.TABLE:EggCheckerTest.Eggs</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="18ebb4d5-d040-49ed-8b09-10687d95cdb8.TABLE:EggCheckerTest.Role" target="18ebb4d5-d040-49ed-8b09-10687d95cdb8.TABLE:EggCheckerTest.User">
-              <point x="0.0" y="-52.5" />
-              <point x="368.0" y="357.0" />
-              <point x="298.0" y="357.0" />
-              <point x="54.0" y="64.5" />
-            </edge>
-            <edge source="18ebb4d5-d040-49ed-8b09-10687d95cdb8.TABLE:EggCheckerTest.User" target="18ebb4d5-d040-49ed-8b09-10687d95cdb8.TABLE:EggCheckerTest.zipCodeWeather">
-              <point x="0.0" y="-64.5" />
-              <point x="0.0" y="76.5" />
-            </edge>
-            <edge source="18ebb4d5-d040-49ed-8b09-10687d95cdb8.TABLE:EggCheckerTest.Eggs" target="18ebb4d5-d040-49ed-8b09-10687d95cdb8.TABLE:EggCheckerTest.User">
-              <point x="0.0" y="-76.5" />
-              <point x="120.0" y="357.0" />
-              <point x="190.0" y="357.0" />
-              <point x="-54.0" y="64.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.9099099099099099" x="-41.0" y="254.0" />
-          <SelectedNodes>
-            <node>18ebb4d5-d040-49ed-8b09-10687d95cdb8.TABLE:EggCheckerTest.Eggs</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/18ebb4d5-d040-49ed-8b09-10687d95cdb8.SCHEMA:EggChecker">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>18ebb4d5-d040-49ed-8b09-10687d95cdb8.SCHEMA:EggChecker</OriginalElement>
-          <nodes>
-            <node x="" y="">18ebb4d5-d040-49ed-8b09-10687d95cdb8.TABLE:EggChecker.User</node>
-            <node x="" y="">18ebb4d5-d040-49ed-8b09-10687d95cdb8.TABLE:EggChecker.Eggs</node>
-            <node x="" y="">18ebb4d5-d040-49ed-8b09-10687d95cdb8.TABLE:EggChecker.Role</node>
-            <node x="" y="">18ebb4d5-d040-49ed-8b09-10687d95cdb8.TABLE:EggChecker.zipCodeWeather</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.9099099099099099" x="238.0" y="268.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://18ebb4d5-d040-49ed-8b09-10687d95cdb8/schema/EggCheckerTest/table/User" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testdb.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/Cleandb.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SignUpUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="29" column="55" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="55" />
-          <folding>
-            <element signature="e#952#968#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/persistence/GenericDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1133,35 +1181,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/dataTable.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/signUp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ShowUsers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="18" column="72" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdminUserPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -1172,75 +1192,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ShowEgg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="29" column="57" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/UpdateEggs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="46" column="33" lean-forward="true" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://18ebb4d5-d040-49ed-8b09-10687d95cdb8/schema/EggCheckerTest/table/Eggs" />
     <entry file="das://18ebb4d5-d040-49ed-8b09-10687d95cdb8/schema/EggChecker/table/Eggs" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AddEgg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/showEgg.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design/Totals.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/design/eggSelectionAndForm.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/Base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/totals.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1249,24 +1207,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/calender.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/dump.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/eggForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1294,43 +1238,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/nav.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1026">
-            <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/timeLog.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="324">
-            <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ShowEggs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
-          <folding>
-            <element signature="e#1079#1085#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design/Screens.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1341,27 +1248,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/DeleteUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/notes.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
@@ -1376,20 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://18ebb4d5-d040-49ed-8b09-10687d95cdb8/schema/EggChecker/table/zipCodeWeather">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://18ebb4d5-d040-49ed-8b09-10687d95cdb8/schema/EggChecker/table/User">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1430,15 +1306,228 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/Egg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="648">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timeLog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="342">
+            <caret line="19" column="68" lean-forward="true" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/notesList.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/calender.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/ZipCodeWeather.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1704">
+        <state relative-caret-position="18">
           <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="761">
+            <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/totals.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" selection-start-line="23" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/titleBar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://18ebb4d5-d040-49ed-8b09-10687d95cdb8/schema/EggChecker/table/zipCodeWeather">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/signUp.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/showEgg.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://18ebb4d5-d040-49ed-8b09-10687d95cdb8/schema/EggChecker/table/User">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/eggForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/generalError.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/loginError.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/nav.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/eggList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ShowEggs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#1079#1085#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ShowUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="18" column="72" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SignUpUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="29" column="55" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="55" />
+          <folding>
+            <element signature="e#952#968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/DeleteUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AddEgg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ShowEgg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/UpdateEggs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/Base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
