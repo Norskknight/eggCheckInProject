@@ -6,7 +6,8 @@
 <body>
 <div class="container">
     <%@include file="titleBar.jsp" %>
-    <div>${message}</div>
+    <div class="contentRow">
+    <div class="deleteMessage">${message}</div>
         <table id="datatable" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
             <thead>
             <th class="th-sm">ID</th>
@@ -41,6 +42,7 @@
             <th>Edit</th>
             </tfoot>
         </table>
+</div>
 </div>
 </body>
 <script>

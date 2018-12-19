@@ -4,6 +4,7 @@
 <%@include file="head.jsp" %>
 <body class="container">
 <%@include file="titleBar.jsp" %>
+<div class="contentRow">
 <div class="deleteMessage">${message}</div>
 <table id="datatable" class="table table-striped table-bordered table-sm">
     <thead>
@@ -26,6 +27,7 @@
     </c:forEach>
     </tbody>
 </table>
+</div>
 </body>
 <script>
 

@@ -32,7 +32,7 @@ public class UpdateEggs extends HttpServlet {
         if (req.getParameter("job").equals("Delete")){
             logger.debug("delete Job");
             eggDAO.delete(egg);
-            String message = "egg id: "+egg.getId() + " Has been deleted";
+            String message = "Egg Id: " + egg.getId() + " Has been deleted";
             req.setAttribute("message" ,message);
             dispatcher = req.getRequestDispatcher("/showEggs");
         }else {
@@ -41,12 +41,11 @@ public class UpdateEggs extends HttpServlet {
             egg.setCollectedDate(req.getParameter("date"));
             egg.setType(req.getParameter("type"));
             egg.setNotes(req.getParameter("notes"));
-
             eggDAO.update(egg);
-            String message = egg.getId() + " Has been updated";
+            String message = "Egg Id: " + egg.getId() + " Has been updated";
             logger.info(message);
             req.setAttribute("message" ,message);
-            dispatcher = req.getRequestDispatcher("/showEgg?id="+req.getParameter("id"));
+            dispatcher = req.getRequestDispatcher("/showEggs");
         }
 
         dispatcher.forward(req, resp);

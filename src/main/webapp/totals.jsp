@@ -1,10 +1,11 @@
 <%@include file="header.jsp" %>
-<c:set value="totals" var="title"/>
+<c:set value="Totals" var="title"/>
 <html>
 <%@include file="head.jsp" %>
 <body>
 <div class="container">
     <%@include file="titleBar.jsp" %>
+    <div class="content">
     <table id="datatable" class="table table-striped table-bordered table-sm">
         <thead>
         <th class="th-sm">User</th>
@@ -19,6 +20,7 @@
         </c:forEach>
         </tbody>
     </table>
+</div>
 </div>
 </body>
 <script>

@@ -26,32 +26,39 @@
     grid-area: 2 /4;
     justify-self: center;
 }
-.addEggForm{
-    /*<row-start> / <column-start> / <row-end> / <column-end>*/
-    grid-area: 2 /3;
+.deleteMessage{
+    font-size: 3em;
     justify-self: center;
 }
-.showEggForm{
+.content {
     /*<row-start> / <column-start> / <row-end> / <column-end>*/
-    grid-area: 2 /5;
-    justify-self: center;
+    grid-area: 2/3/4/6;
+}
+.contentRow{
+    display: inline-grid;
+    grid-template-rows: 60px 75%;
+    /*<row-start> / <column-start> / <row-end> / <column-end>*/
+    grid-area: 2/3/4/6;
+}
+.contentCol{
+    display: inline-grid;
+    grid-auto-flow: column;
+    /*<row-start> / <column-start> / <row-end> / <column-end>*/
+    grid-area: 2/3/4/6;
 }
 .loginForm{
     /*<row-start> / <column-start> / <row-end> / <column-end>*/
     grid-area: 2 /4;
 }
-.dataTables_wrapper{
-    /*<row-start> / <column-start> / <row-end> / <column-end>*/
-    grid-area: 2 /3 /4 /6;
-}
-
 .navpic{
     /*<row-start> / <column-start> / <row-end> / <column-end>*/
     grid-area: 1/1/3/3;
-
+}
+.showEggUpdateForm {
+    /*<row-start> / <column-start> / <row-end> / <column-end>*/
+    grid-area: 3/3;
 }
 img {
     width: 100%;
     height: auto;
 }
-

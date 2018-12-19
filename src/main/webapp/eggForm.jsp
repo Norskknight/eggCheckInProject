@@ -7,7 +7,8 @@
 <div class="container">
     <%@include file="titleBar.jsp" %>
 
-    <div class="message">${message}</div>
+
+    <div class="contentCol">
     <div class="addEggForm">
         <form action="addEgg" method="post">
             <label for="date">Date Collected</label><br>
@@ -23,12 +24,14 @@
             <input type="submit">
         </form>
     </div>
+        <div class="eggAddedMessage">${message}</div>
     <div class="showEggForm">
         <form action="showEgg" method="get">
             <label for="id">ID</label>
             <input id="id" name="id" type="text">
             <input type="submit" value="Find">
         </form>
+    </div>
     </div>
 </div>
 </body>

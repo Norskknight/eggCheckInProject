@@ -43,7 +43,6 @@ public class ShowEggs extends HttpServlet {
             egg.setTwoWeeks(egg.generateNextDate(14));
             egg.setFiveWeeks(egg.generateNextDate(35));
         }
-
         req.setAttribute("eggs", eggs);
         RequestDispatcher dispatcher = req.getRequestDispatcher("/eggList" + ".jsp");
 

@@ -39,18 +39,19 @@ public class AddEgg extends HttpServlet {
         logger.debug(user);
         egg.setUser(user);
         ZipCodeWeather weatherData = user.getZipCodeWeather();
-        String formatedNote ="The weather today is a" + weatherData.getWeather() + " with the Temperature in Fahrenheit " + weatherData.tempToFahrenheit();
+        String formatedNote ="The weather today is " + weatherData.getWeather() + " with the Temperature in Fahrenheit " + weatherData.tempToFahrenheit();
         egg.setNotes(formatedNote);
         Set<Egg> eggs =  user.getEggs();
         logger.debug(eggs.size());
         int id = eggDao.create(egg);
 
-        String message = "<div class='event'><p>last Egg ID is : " + id
+        String message = "<p>last Egg ID is : " + id
+                + " <p>last Egg Type is : " + egg.getType() + "</p>"
                 + " <p>last Egg Collected date is : " + egg.generateNextDate(0) + "</p>"
                 + " <p>last Egg washBy Date is : " + egg.generateNextDate(14) + "</p>"
                 + " <p>last Egg Use By Date is : " + egg.generateNextDate(35) + "</p>"
-                + "<p>"+ egg.getNotes()+ "</p>"
-                + "</div>";
+                + "<p>"+ egg.getNotes()+ "</p>";
+
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/eggForm.jsp");
 
