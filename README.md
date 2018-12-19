@@ -16,10 +16,12 @@ I would like to have a enter date for when I received the egg and have a calende
 #### Insert Data
 * enter egg date
 * enter egg type
+* enter user with zipcode
 #### Generate Data
 * have an ID  
 * have a Wash by date / refrigarate by date 2 week after entering
-* have a best by date 3 weeks after refrigeration
+* have a use by date 3 weeks after refrigeration
+* use zipcode to reseve weather data from api
 #### Use Data
 * add dates with ID's to a datatable
 
