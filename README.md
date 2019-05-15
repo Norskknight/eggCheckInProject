@@ -59,7 +59,7 @@ I would like to have a enter date for when I received the egg and have a calende
     IntelliJ IDEA
     Atom
     
-### [AWS](http://18.219.184.166:8080/eggCalender)
+### [AWS Terminated]
 ### [Screen Designs](design/Screens.md)
 ### [Project Plan](Project%20Plan.md)
 ### [TimeLog](timeLog.md)
